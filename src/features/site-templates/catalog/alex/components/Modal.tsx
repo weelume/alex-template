@@ -1,0 +1,9 @@
+'use client'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import { useEffect, useRef, type ReactNode } from 'react'
+// 焦点约束、Escape 关闭、滚动锁及焦点恢复统一在这里实现，避免各弹窗重复处理。
+export function Modal({open,onClose,title,children,closeLabel}:{open:boolean;onClose:()=>void;title:string;children:ReactNode;closeLabel:string}) {
+ const dialog=useRef<HTMLDivElement>(null), reduced=useReducedMotion()
+ useEffect(()=>{if(!open)return;const previous=document.activeElement as HTMLElement|null,overflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.current?.focus();const key=(e:KeyboardEvent)=>{if(e.key==='Escape')onClose();if(e.key==='Tab'){const nodes=dialog.current?.querySelectorAll<HTMLElement>('button,a[href],input,select,textarea,[tabindex="0"]');if(!nodes?.length)return;const first=nodes[0],last=nodes[nodes.length-1];if(e.shiftKey&&(document.activeElement===first||document.activeElement===dialog.current)){e.preventDefault();last.focus()}else if(!e.shiftKey&&(document.activeElement===last||document.activeElement===dialog.current)){e.preventDefault();first.focus()}}};document.addEventListener('keydown',key);return()=>{document.body.style.overflow=overflow;document.removeEventListener('keydown',key);previous?.focus()}},[open,onClose])
+ return <AnimatePresence>{open&&<motion.div className="ax-modal-shade" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:reduced?0:.25}} onClick={onClose}><motion.div className="ax-modal" role="dialog" aria-modal="true" aria-label={title} ref={dialog} tabIndex={-1} onClick={e=>e.stopPropagation()} initial={reduced?false:{y:32,scale:.95}} animate={{y:0,scale:1}} exit={{y:24,scale:.97}} transition={{duration:reduced?0:.35}}><button className="ax-close" aria-label={closeLabel} onClick={onClose}>×</button><h2>{title}</h2>{children}</motion.div></motion.div>}</AnimatePresence>
+}

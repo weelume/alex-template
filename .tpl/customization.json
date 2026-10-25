@@ -1,0 +1,50 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "site",
+      "title": "品牌、内容与主题",
+      "description": "按配置、双语数据、公共组件和页面组合修改。",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/alex/config",
+          "kind": "directory",
+          "purpose": "品牌配置"
+        },
+        {
+          "path": "src/features/site-templates/catalog/alex/content",
+          "kind": "directory",
+          "purpose": "双语内容与集合数据"
+        },
+        {
+          "path": "src/features/site-templates/catalog/alex/components",
+          "kind": "directory",
+          "purpose": "公共布局、区块与动效"
+        },
+        {
+          "path": "src/features/site-templates/catalog/alex/pages",
+          "kind": "directory",
+          "purpose": "页面组合与文章"
+        },
+        {
+          "path": "src/features/site-templates/catalog/alex/theme.css",
+          "kind": "file",
+          "purpose": "主题令牌与响应式样式"
+        }
+      ],
+      "constraints": [
+        "保持双语与无障碍交互",
+        "不发送或保存演示表单信息",
+        "尊重减少动态效果设置"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    }
+  ]
+}

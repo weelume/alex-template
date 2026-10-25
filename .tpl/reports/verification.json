@@ -1,0 +1,87 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-25T23:55:22.896Z",
+  "sourceCommit": null,
+  "sourceDigest": "bef9a9d4a9a78e5dc27c090f1d6f4368926ec1f4a70de73e90ea68b2183dc547",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm 9.15.4",
+    "cleanDirectory": false,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T23:54:08.863Z",
+      "finishedAt": "2026-10-25T23:54:11.089Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T23:54:11.090Z",
+      "finishedAt": "2026-10-25T23:54:13.634Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T23:54:13.634Z",
+      "finishedAt": "2026-10-25T23:54:14.505Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T23:54:14.505Z",
+      "finishedAt": "2026-10-25T23:54:31.352Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-25T23:54:32.066Z"
+    }
+  ],
+  "limitations": [
+    "完整原站三端逐帧时序、全部悬停与长时间循环矩阵未逐项完整对比，不能称全部动效一致验收通过。",
+    "系统减少动态偏好已实现，但浏览器接口没有提供该偏好模拟能力，尚未实际切换验收。",
+    "一张原站工地照片 HTTP 404，明确替换为同站已有商业建筑图。",
+    "中文字体、字号、玻璃卡片与双语品牌按规范适配，存在有意视觉差异。",
+    "素材商业再分发许可待确认，保持不公开上架；源码仓库创建和推送有用户授权。",
+    "验收为独立本地 Linux 文件系统副本，不是干净 Git 克隆。"
+  ]
+}

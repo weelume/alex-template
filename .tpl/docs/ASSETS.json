@@ -1,0 +1,199 @@
+{
+  "reference": "https://jiro.build/templates/portfolio/lawyer-portfolio-landing-page-alex",
+  "assets": [
+    {
+      "path": "public/templates/alex/media/cutout.webp",
+      "source": "https://cdn.jiro.build/Alex/All%20Images/alex%20person%20img%2002.webp",
+      "sha256": "5b53edc067d64f8f2cc7ab26422be51cdec3324a313848b40f869a9dd3b48173",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/portrait.webp",
+      "source": "https://cdn.jiro.build/Alex/All%20Images/alex%20person%20img%2001.webp",
+      "sha256": "0090319a10d8211efe758c892d902c90362bfe92d1815a0a294870faeff52791",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/hero.webp",
+      "source": "https://cdn.jiro.build/Alex/All%20Images/alex%20header%20bg.webp",
+      "sha256": "18425f72db4f166fd347deb347807f0306b2391aacd8a6ddf96a459860c4a40c",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/consultation.png",
+      "source": "https://cdn.jiro.build/Alex/All%20Images/alex%20person%20img.png",
+      "sha256": "7f8bf44239957cec4748d3214836fca0b8fe4b315e648322714437a923437b4e",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/logo.svg",
+      "source": "https://cdn.jiro.build/Alex/All%20SVG/nav%20left%20top%20icon.svg",
+      "sha256": "795d2a5cd8c34c6dbb8a7c6168aeab172ce81ce5fedef1ccc6cc8e011c120e94",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-3.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2003.png",
+      "sha256": "5732dd9ff4d076df58c87f61a43d62c18582039547d3ce38130fe123d7b6d3ac",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-2.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2002.png",
+      "sha256": "59cbd06c97550deeaa775ebe17da402aa8baf27a962977edae46d78553f9ab0c",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-1.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2001.png",
+      "sha256": "7470bf574f3d5831e664a0305e682b4cc8976467d47fdf22c9e01e373fc9b05f",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-7.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2007.png",
+      "sha256": "257c54da002fe5eede5c2123cf762cff8d5e25661138a71e4612775800f3eb78",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-6.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2006.png",
+      "sha256": "fbb9e04e85421de8bb62058e2ddd8fc85b5243eabd3cdfd2699d5e1ea0d3c5e4",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-5.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2005.png",
+      "sha256": "0de7bb63948fa04d0020aa224d80285e2783b33246ecaabeddc48e9a0ea148f1",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-4.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2004.png",
+      "sha256": "8e0797c198b7512d511b2032b552ad97abc7eb0e610daccb6de4222dd3aeb72c",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-10.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2010.png",
+      "sha256": "8bb75f939b648152c61f2221eb536d7d18b121b61c0e532ef6c1d9cafebfca6b",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-8.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2008.png",
+      "sha256": "5dcd23ad972985654379d5bbc350d245252bfb6d865b6a6eaf51331403d8ad40",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-0.jpg",
+      "source": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "4392a1d706bd82f6f508801fb02ccbd3d4fb84a6a7f8f18a17f5a166419c5b96",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/avatar-9.png",
+      "source": "https://cdn.jiro.build/Jahid/Extra/Img/avater%2009.png",
+      "sha256": "7d942cbd154838b30a9a7918311896fd87c0c447d1a7304abcdca1df6ca9d476",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-1.jpg",
+      "source": "https://images.unsplash.com/photo-1450133064473-71024230f91b?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "4a0daa3e5a44599a3a16f79c7f69e08cd5a430ef2254a609ca0960fd5fa5fe8f",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-4.jpg",
+      "source": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "eeaff08fba19fa508fff100329052f407710af2ff6540ca2c85a9f9df0c751eb",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-3.jpg",
+      "source": "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "105d0dfe02d1cbe75c925345e70c21fb8157e835cdf5c2dff29ac0daaa28e994",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-2.jpg",
+      "source": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "0354475d4972cf603e33f2832082185a03a3a604ed28bd981b174307d07c3da3",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-8.jpg",
+      "source": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "64f01aa08412bd03fe58884be18d10f78aa603710dfa84da23503f1030ad5e87",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-7.jpg",
+      "source": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "eb70952dedd36c522d689dceb971fece597af8ce4f890e91317f3947103878d8",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-5.jpg",
+      "source": "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "12ee0df30bcafdc8c5ce334dea57a4a47ffb2a1dd3287cfc4e5a1820fd15f7ab",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-6.jpg",
+      "source": "https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "aee764a745f871d492ace41c139ba4c83134f755bb52b21bbb23645bec5ba475",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-9.jpg",
+      "source": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "07e79390393d29bb0c968fec8380b92ef5de70f35cd88e50822731e2602ed56f",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-12.jpg",
+      "source": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "1b60b85e0b3fc470b3690dcf4710beeda6b48f0739bf858533ae986431859f2c",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-11.jpg",
+      "source": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "a04261d290f285e7900f86ae458f35e3d9c678e168bcac9a82e9f55ef6a44337",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-10.jpg",
+      "source": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "16902cae4666a75a44c370b9eb514720ec404b1f28d7205791da8b2bdb2e3699",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-15.jpg",
+      "source": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "0e591128c8a33a231586cdb3f8b90a96fd64df937f1b316524ab76be62637866",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-13.jpg",
+      "source": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "64f01aa08412bd03fe58884be18d10f78aa603710dfa84da23503f1030ad5e87",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/photo-14.jpg",
+      "source": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=85&w=1400&auto=format&fit=crop",
+      "sha256": "d202c6e7247812848e9dc7dfd2c92c7da8f1794e7e8726a43ae2f8c02c38b872",
+      "license": "参考公开预览素材；商业再分发授权待确认"
+    }
+  ],
+  "fonts": "MiSans 400/700 与 Poppins 400/600/700，本地文件与许可证见 public/templates/alex/fonts。",
+  "differences": [
+    {
+      "original": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6",
+      "status": 404,
+      "replacement": "photo-13.jpg 使用原站已有商业建筑照片 photo-8.jpg；明确替换，非原图完整复刻。"
+    }
+  ]
+}
