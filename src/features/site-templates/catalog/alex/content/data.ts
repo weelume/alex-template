@@ -49,7 +49,178 @@ export const articles = [
  {slug:'small-business-legal-steps',date:'2026-09-12',title:bi('小型企业应重视的五项法律准备','5 Legal Steps Every Small Business Should Take'),photo:1,paragraphs:[bi('选择合适的组织形式，明确所有权和决策机制。公司章程与股东协议应体现真实的合作安排。','Choose an appropriate entity structure and clarify ownership and decision-making. Governance documents should reflect the actual arrangement.'),bi('建立清晰的合同流程，重视知识产权归属与保密。关注用工、数据保护及行业合规要求，并保存完整记录。','Build a clear contracting process and address intellectual property ownership and confidentiality. Review employment, data protection, and industry compliance requirements.'),bi('定期复查风险，与专业顾问讨论业务变化对现有文件的影响。本文仅为一般性演示信息。','Review risks regularly and discuss how business changes affect existing documents. This article provides general demonstration information only.') ]},
  {slug:'criminal-investigation-rights',date:'2026-09-09',title:bi('刑事调查中 如何了解并保护自己的权利','Understanding Your Rights During a Criminal Investigation'),photo:6,paragraphs:[bi('保持冷静，确认相关人员的身份和程序性质。不同法域对讯问、搜查和获得律师协助的规定不同。','Stay calm and identify the authorities and procedure involved. Rules on questioning, searches, and access to counsel vary by jurisdiction.'),bi('不要猜测事实、签署不理解的材料或干扰调查。尽早寻求合资格律师帮助，理解自己的权利与义务。','Do not speculate about facts, sign documents you do not understand, or interfere with an investigation. Seek qualified counsel to understand your rights and duties.'),bi('本页面为模板演示，不针对具体事件提供法律建议。紧急情形应联系当地有相应资质的专业人士。','This template demonstration does not provide advice for a specific matter. For urgent situations, contact an appropriately qualified local professional.') ]},
 ]
-export const testimonials = ['David Mitchell','Marcus Sterling','Julian Vance','Arthur Pendelton','Robert Hayes','Eleanor Vance','Gregory Bennett','Sophia Laurent','Brandon Cole','Victoria Chen'].map((name,i)=>({name,photo:i+1,title:[bi('坚定支持 安心应对','CASE WON WITH CONFIDENCE'),bi('复杂问题 清晰化解','CLEAR GUIDANCE AT EVERY STEP'),bi('专业投入 值得信赖','DEDICATED AND PROFESSIONAL')][i%3],role:[bi('商业诉讼客户','Corporate Litigation Client'),bi('企业法律客户','Business Law Client'),bi('私人客户','Private Client')][i%3],quote:[bi('认真倾听，清晰解释，并为更好的结果全力以赴。在整个法律过程中，我始终感到被支持，也清楚知道进展。','Alex listened carefully, explained everything clearly, and fought for the best outcome. I felt supported and informed throughout the entire legal process.'),bi('面对复杂的合同问题，清晰的建议和及时的沟通让我们更有信心推进业务。','Clear advice and timely communication helped us approach complex contractual issues with confidence.'),bi('既有扎实的专业能力，也会认真理解我们的处境。每一步都解释得很清楚。','Professional, thoughtful, and attentive to our circumstances. Every step was explained clearly.')][i%3]}))
+export const testimonials = [
+  {
+    "name": "David Mitchell",
+    "photo": 1,
+    "rating": "5.0",
+    "title": {
+      "zh": "坚定支持 安心应对",
+      "en": "CASE WON WITH CONFIDENCE"
+    },
+    "role": {
+      "zh": "商业诉讼客户",
+      "en": "Corporate Litigation Client"
+    },
+    "quote": {
+      "zh": "认真倾听，清晰解释，并为更好的结果全力以赴。在整个法律过程中，我始终感到被支持，也清楚知道进展。",
+      "en": "Alex listened carefully, explained everything clearly, and fought for the best outcome. I felt supported and informed throughout the entire legal process."
+    }
+  },
+  {
+    "name": "Marcus Sterling",
+    "photo": 2,
+    "rating": "5.0",
+    "title": {
+      "zh": "周密规划 守护资产",
+      "en": "ASSETS SECURED FLAWLESSLY"
+    },
+    "role": {
+      "zh": "资产保护客户",
+      "en": "Asset Protection Client"
+    },
+    "quote": {
+      "zh": "从初次咨询到最终解决，深入的策略和坚定的执行超出了我们的预期，是值得信赖的法律伙伴。",
+      "en": "From the initial consultation to final resolution, the strategic depth and relentless execution exceeded every expectation. An invaluable legal partner."
+    }
+  },
+  {
+    "name": "Julian Vance",
+    "photo": 3,
+    "rating": "4.9",
+    "title": {
+      "zh": "规划争议 顺利解决",
+      "en": "ZONING DISPUTE RESOLVED"
+    },
+    "role": {
+      "zh": "商业地产客户",
+      "en": "Commercial Property Client"
+    },
+    "quote": {
+      "zh": "开发项目遭遇市政审批障碍时，精准的法律支持帮助我们推动审批，同时保留项目最初的愿景。",
+      "en": "When municipal hurdles stalled our development, Alex stepped in with authoritative legal precision. We secured approvals in record time without compromising our vision."
+    }
+  },
+  {
+    "name": "Arthur Pendelton",
+    "photo": 4,
+    "rating": "5.0",
+    "title": {
+      "zh": "正义与信任 如期而至",
+      "en": "JUSTICE & TRUST ATTAINED"
+    },
+    "role": {
+      "zh": "资深顾问服务客户",
+      "en": "Senior Advisory Client"
+    },
+    "quote": {
+      "zh": "多年企业管理经验让我明白，真正的专业能力难能可贵。坚定的代理、职业操守与庭审准备令人信任。",
+      "en": "Decades in corporate leadership taught me how rare true legal mastery is. This firm embodies relentless advocacy, pristine ethics, and supreme courtroom prowess."
+    }
+  },
+  {
+    "name": "Robert Hayes",
+    "photo": 5,
+    "rating": "5.0",
+    "title": {
+      "zh": "遗产事务 更加清晰",
+      "en": "ESTATE PROBATE CLARITY"
+    },
+    "role": {
+      "zh": "家庭遗产客户",
+      "en": "Family Estate Client"
+    },
+    "quote": {
+      "zh": "既有同理心，也有敏锐的判断与及时的回应。在压力最大的时期，专业支持让家人安心许多。",
+      "en": "Compassionate, razor-sharp, and remarkably responsive. In the most stressful season of my life, having Alex in our corner gave my family absolute peace of mind."
+    }
+  },
+  {
+    "name": "Eleanor Vance",
+    "photo": 6,
+    "rating": "5.0",
+    "title": {
+      "zh": "捍卫专利与知识产权",
+      "en": "PATENTS & IP DEFENDED"
+    },
+    "role": {
+      "zh": "Apex Tech 管理合伙人",
+      "en": "Managing Partner, Apex Tech"
+    },
+    "quote": {
+      "zh": "跨境知识产权争议曾让人无所适从。清晰的策略帮助我们保护核心技术与企业价值。",
+      "en": "Navigating cross-border intellectual property disputes was overwhelming until Alex took command. The strategic insight saved our proprietary technology and millions in value."
+    }
+  },
+  {
+    "name": "Gregory Bennett",
+    "photo": 7,
+    "rating": "5.0",
+    "title": {
+      "zh": "并购交易 平稳完成",
+      "en": "ACQUISITION CLOSED SEAMLESSLY"
+    },
+    "role": {
+      "zh": "首席执行官",
+      "en": "Chief Executive Officer"
+    },
+    "quote": {
+      "zh": "多主体合并得到严谨处理，从合同条款、监管合规到交割节点，每一步都清楚有序。",
+      "en": "Alex handled our multi-entity merger with absolute precision. Every contract covenant, regulatory compliance item, and closing milestone was flawless."
+    }
+  },
+  {
+    "name": "Sophia Laurent",
+    "photo": 8,
+    "rating": "5.0",
+    "title": {
+      "zh": "信托资产 得到守护",
+      "en": "TRUST ASSETS SAFEGUARDED"
+    },
+    "role": {
+      "zh": "私人财富受托人",
+      "en": "Private Wealth Trustee"
+    },
+    "quote": {
+      "zh": "诚实、审慎且重视隐私。跨代家庭资产规划的每个细节都解释得清楚、处理得周全。",
+      "en": "Unmatched integrity and discretion. Alex structured our multi-generational family estate plan with clarity and meticulous attention to detail."
+    }
+  },
+  {
+    "name": "Brandon Cole",
+    "photo": 9,
+    "rating": "4.9",
+    "title": {
+      "zh": "争议化解 有力有据",
+      "en": "DISPUTE WON DECISIVELY"
+    },
+    "role": {
+      "zh": "商业承包商",
+      "en": "Commercial Contractor"
+    },
+    "quote": {
+      "zh": "在重大分包合同诉讼中，团队系统地分析对方主张，并争取到有利的简易判决。",
+      "en": "In a high-stakes subcontractor litigation, Alex dismantled opposing arguments systematically and achieved a favorable summary judgment."
+    }
+  },
+  {
+    "name": "Victoria Chen",
+    "photo": 10,
+    "rating": "5.0",
+    "title": {
+      "zh": "创业股权 清晰规划",
+      "en": "VENTURE EQUITY STRUCTURED"
+    },
+    "role": {
+      "zh": "初创企业联合创始人",
+      "en": "Startup Co-Founder"
+    },
+    "quote": {
+      "zh": "从企业设立到 A 轮融资文件的起草，专业建议始终是我们作出重要决定时的可靠支持。",
+      "en": "From corporate incorporation to our Series A legal drafting, Alex has been an indispensable counselor whose advice we trust without hesitation."
+    }
+  }
+]
 export const plans = [
  {name:bi('单次法律咨询','ONE TIME CONSULTATION'),price:bi('按次咨询','Consultation'),text:bi('为你的法律问题提供清晰指引，适合需要就具体事项获得专业建议的个人或企业。','Get clear guidance for your legal questions. Perfect for individuals or businesses who need expert advice on a specific matter.'),features:[bi('60 分钟私密咨询','60-minute private consultation'),bi('针对具体问题的专业建议','Expert legal advice on your specific issue'),bi('案件评估与后续步骤','Case evaluation and next steps'),bi('支持线下或线上沟通','Available in-person or online'),bi('咨询后无需承诺聘用','No obligation to hire afterward')]},
  {name:bi('持续法律支持','Ongoing Legal Support'),price:bi('$499 / 月',' $499 / month'),text:bi('为个人与企业提供持续的法律支持，及时获得专业指引。价格仅为模板展示示例。','Ongoing legal support to keep you and your business protected. Ideal for those who need continuous legal guidance.'),features:[bi('邮件与电话咨询支持','Unlimited email & phone support'),bi('合同审查与法律文件指引','Contract review and legal document guidance'),bi('持续法律咨询','Ongoing legal consultations'),bi('24 小时内优先响应','Priority response within 24 hours'),bi('月度法律资讯与合规提醒','Monthly legal updates and compliance reminders'),bi('其他服务优惠费率','Discounted rates for additional services'),bi('支持暂停或取消','Flexible pause or cancel anytime')]},
