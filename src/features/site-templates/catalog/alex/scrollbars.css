@@ -1,0 +1,60 @@
+/* 页面滚动条位于根元素，必须按模板是否存在来限定，离开模板后自动恢复宿主样式。 */
+:root:has(.ax-site) {
+  --ax-scrollbar-track: #0d0d0d;
+  --ax-scrollbar-thumb: #756438;
+  --ax-scrollbar-thumb-hover: #bba04c;
+  background-color: var(--ax-scrollbar-track);
+  color-scheme: dark;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ax-scrollbar-thumb) var(--ax-scrollbar-track);
+}
+
+.ax-site {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ax-scrollbar-thumb) var(--ax-scrollbar-track);
+}
+
+.ax-modal,
+.ax-navigation {
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+}
+
+:root:has(.ax-site)::-webkit-scrollbar,
+.ax-site *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+:root:has(.ax-site)::-webkit-scrollbar-track,
+.ax-site *::-webkit-scrollbar-track {
+  background: var(--ax-scrollbar-track);
+}
+
+:root:has(.ax-site)::-webkit-scrollbar-thumb,
+.ax-site *::-webkit-scrollbar-thumb {
+  min-height: 40px;
+  border: 2px solid var(--ax-scrollbar-track);
+  border-radius: 999px;
+  background-color: var(--ax-scrollbar-thumb);
+  background-clip: padding-box;
+}
+
+:root:has(.ax-site)::-webkit-scrollbar-thumb:hover,
+.ax-site *::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ax-scrollbar-thumb-hover);
+}
+
+:root:has(.ax-site)::-webkit-scrollbar-corner,
+.ax-site *::-webkit-scrollbar-corner {
+  background: var(--ax-scrollbar-track);
+}
+
+/* 高对比模式交由系统选色，保留滚动条和键盘、触摸操作。 */
+@media (forced-colors: active) {
+  :root:has(.ax-site),
+  .ax-site {
+    scrollbar-color: auto;
+  }
+}

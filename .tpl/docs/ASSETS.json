@@ -186,6 +186,12 @@
       "source": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=85&w=1400&auto=format&fit=crop",
       "sha256": "d202c6e7247812848e9dc7dfd2c92c7da8f1794e7e8726a43ae2f8c02c38b872",
       "license": "参考公开预览素材；商业再分发授权待确认"
+    },
+    {
+      "path": "public/templates/alex/media/name.svg",
+      "source": "https://cdn.jiro.build/Alex/All%20SVG/Name%20svg.svg",
+      "sha256": "10dd3d98a5860baf9939388f24b6bd4f2790dfac97f10d4c551e30f86fee1461",
+      "license": "原站姓名图形；商业再分发授权待确认"
     }
   ],
   "fonts": "MiSans 400/700 与 Poppins 400/600/700，本地文件与许可证见 public/templates/alex/fonts。",
